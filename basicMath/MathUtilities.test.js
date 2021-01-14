@@ -16,7 +16,7 @@ test("Test 1 Integer Addition", () => {
 
 test("Test 2 Integer Addition", () => {
     // Given
-    let math = new MathUtilities();
+    let math =  new MathUtilities();
     let baseValue = 63;
     let addedValue = 64;
 
@@ -74,7 +74,7 @@ test("Test 2 Integer Division", () => {
     let addedValue = 1;
 
     // When
-    let expected = 127;
+    let expected = 2;
     let actual = math.divide(baseValue, addedValue);
     //Then
     expect(actual).toEqual(expected);
